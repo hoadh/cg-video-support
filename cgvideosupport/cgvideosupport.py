@@ -35,7 +35,7 @@ class CGVideoSupportXBlock(XBlock):
         frag = Fragment(html.format(self=self))
         frag.add_css(self.resource_string("static/css/cgvideosupport.css"))
         frag.add_javascript(self.resource_string("static/js/src/cgvideosupport.js"))
-        frag.add_javascript_url("http://videocall.staging.codegym.vn/external_api.js")
+        frag.add_javascript_url("https://videocall.staging.codegym.vn/external_api.js")
         frag.initialize_js('CGVideoSupportXBlock')
         return frag
 
