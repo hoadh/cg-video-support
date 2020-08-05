@@ -1,0 +1,1 @@
+from .cgvideosupport import CGVideoSupportXBlock

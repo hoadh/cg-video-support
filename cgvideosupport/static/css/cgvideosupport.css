@@ -1,0 +1,9 @@
+/* CSS for CGVideoSupportXBlock */
+
+.cgvideosupport_block .count {
+    font-weight: bold;
+}
+
+.cgvideosupport_block p {
+    cursor: pointer;
+}
